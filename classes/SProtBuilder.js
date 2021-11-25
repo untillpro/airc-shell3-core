@@ -2,7 +2,7 @@
  * Copyright (c) 2020-present unTill Pro, Ltd.
  */
 
-const _ = require('lodash');
+import _ from 'lodash';
 
 class SProtBuilder {
     constructor() {
@@ -98,4 +98,4 @@ class SProtBuilder {
     }
 }
 
-module.exports = SProtBuilder;
+export default SProtBuilder;
