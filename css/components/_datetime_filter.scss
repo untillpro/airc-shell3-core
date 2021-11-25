@@ -1,0 +1,51 @@
+/* DateTime filter */
+
+.date-time-filter {
+}
+
+.date-time-filter-periods {
+}
+
+.date-time-filter-periods .ant-btn {
+    margin-right: 10px;
+    margin-bottom: 6px;
+}
+
+.date-time-filter-pickers {
+    margin-top: 20px;
+    position: relative;
+}
+
+.date-time-filter-pickers .picker {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.date-time-filter-pickers .picker-error {
+    display: inline-block;
+    vertical-align: middle;
+    border-color: var(--color-danger);
+}
+.date-time-filter-pickers .ant-calendar-picker {
+    margin-right: 10px;
+}
+
+.date-time-filter-error {
+    margin-top: 12px;
+    font-size: 85%;
+    color: var(--color-danger);
+}
+
+.datetime-filter-modal {
+}
+
+.datetime-filter-modal-date {
+    display: inline-block;
+    font-size: 90%;
+    margin-right: 10px;
+    color: var(--color-light-900);
+}
+
+.datetime-filter-modal-content {
+    padding: 20px;
+}

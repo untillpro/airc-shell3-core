@@ -1,0 +1,102 @@
+/* tip */
+
+.tip {
+    display: inline-block;
+    margin: 0px 10px;
+    position: relative;
+
+    vertical-align: middle;
+
+    padding: 3px;
+
+    color: #fff;
+    border-radius: 10px;
+    white-space: nowrap;
+
+    line-height: 14px;
+
+    flex: 0;
+
+    width: 20px;
+
+    text-align: center;
+}
+
+.tip-icon {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+
+    font-size: 10px;
+
+    text-align: center;
+
+    background-color: var(--color-brand);
+
+    border-radius: 10px;
+
+    position: relative;
+    z-index: 10;
+
+    vertical-align: top;
+}
+
+.tip-text {
+    display: none;
+    color: var(--color-brand);
+
+    white-space: normal;
+}
+
+.tip-text {
+    display: block;
+    position: absolute;
+
+    min-height: 20px;
+    line-height: 16px;
+
+    left: 0px;
+    top: 0px;
+
+    padding: 2px 10px 2px 25px;
+
+    background-color: var(--color-light-200);
+    border-radius: 10px;
+    font-size: 9pt;
+    z-index: 9;
+    text-align: left;
+    box-shadow: var(--box-shadow-z-3);
+
+    width: max-content;
+}
+
+.tip-text.align-left {
+    left: initial;
+    right: 0;
+
+    padding: 2px 25px 2px 10px;
+}
+
+.tip.opened {
+    display: block;
+    margin: 0px;
+    width: 100%;
+    flex: 1;
+    text-align: left;
+}
+
+.tip.opened .tip-icon {
+    left: 5pt;
+    top: 5pt;
+
+    position: absolute;
+}
+
+.tip.opened .tip-text {
+    position: static;
+    width: auto;
+    padding-left: 25px;
+    box-shadow: var(--box-shadow-z-1);
+    display: inline-block;
+}

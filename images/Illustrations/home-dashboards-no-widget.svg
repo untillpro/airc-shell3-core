@@ -1,0 +1,45 @@
+
+<svg width="323px" height="131px" viewBox="0 0 323 131" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#0A1F44" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="-2.22044605e-14%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#0A1F44" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#BAC2CF" offset="0%"></stop>
+            <stop stop-color="#0A1F44" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="🚀-Styleguide---kuba" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Illustrations" transform="translate(-153.000000, -803.000000)">
+            <g id="illu" transform="translate(152.000000, 803.000000)">
+                <g id="floor" transform="translate(0.000000, 125.000000)" fill-rule="nonzero" opacity="0.200000003">
+                    <path d="M2,3.5 C1.17157288,3.5 0.5,2.82842712 0.5,2 C0.5,1.17157288 1.17157288,0.5 2,0.5 L122,0.5 C122.828427,0.5 123.5,1.17157288 123.5,2 C123.5,2.82842712 122.828427,3.5 122,3.5 L2,3.5 Z" id="Path-Copy" fill="url(#linearGradient-1)"></path>
+                    <path d="M202.5,4 C201.671573,4 201,3.32842712 201,2.5 C201,1.67157288 201.671573,1 202.5,1 L322.5,1 C323.328427,1 324,1.67157288 324,2.5 C324,3.32842712 323.328427,4 322.5,4 L202.5,4 Z" id="Path-Copy-2" fill="url(#linearGradient-2)"></path>
+                </g>
+                <g id="illu2" transform="translate(84.000000, 0.000000)">
+                    <path d="M1.93548387,54.1935484 C0.86516129,54.1935484 -9.23705556e-14,53.3264516 -9.23705556e-14,52.2580645 C-9.23705556e-14,23.4425806 23.4425806,8.17124146e-13 52.2580645,8.17124146e-13 C53.3283871,8.17124146e-13 54.1935484,0.867096774 54.1935484,1.93548387 L54.1935484,54.1935484 L1.93548387,54.1935484 Z" id="Path" fill="#051D39" opacity="0.03"></path>
+                    <g id="p-chart" transform="translate(7.000000, 7.000000)">
+                        <path d="M70,18 C98.718,18 122,41.282 122,70 C122,98.718 98.718,122 70,122 C41.282,122 18,98.718 18,70" id="Path" stroke="#0A1F44" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <g transform="translate(10.000000, 10.000000)" fill="#0A1F44" id="Path" opacity="0.03">
+                            <path d="M52.7419355,105 C23.9264516,105 0.483870968,81.5574194 0.483870968,52.7419355 C0.483870968,51.6735484 1.34903226,50.8064516 2.41935484,50.8064516 L50.8064516,50.8064516 L50.8064516,2.41935484 C50.8064516,1.35096774 51.6716129,0.483870968 52.7419355,0.483870968 C81.5574194,0.483870968 105,23.9264516 105,52.7419355 C105,81.5574194 81.5574194,105 52.7419355,105 Z"></path>
+                        </g>
+                        <path d="M52.5,52.5 L52.5,3.52185278 C25.8024304,4.30071446 4.30071446,25.8024304 3.52185278,52.5 L52.5,52.5 Z M0.5,54 C0.5,24.4535729 24.4535729,0.5 54,0.5 C54.8284271,0.5 55.5,1.17157288 55.5,2 L55.5,54 C55.5,54.8284271 54.8284271,55.5 54,55.5 L2,55.5 C1.17157288,55.5 0.5,54.8284271 0.5,54 Z" id="Path" fill="url(#linearGradient-3)" fill-rule="nonzero" opacity="0.200000003"></path>
+                    </g>
+                    <g id="face" transform="translate(53.000000, 95.000000)">
+                        <path d="M22,3 C22,3.07058824 22,3.14117647 22,3.21176471 C22,6.38823529 24.6117647,9 27.7882353,9 C30.9647059,9 33.5764706,6.38823529 33.5764706,3.21176471 C33.5764706,3.14117647 33.5764706,3.07058824 33.5764706,3" id="Path" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"></path>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="3" cy="3" r="3"></circle>
+                        <circle id="Oval-Copy" fill="#FFFFFF" fill-rule="nonzero" cx="52" cy="3" r="3"></circle>
+                        <path d="M25,6 C25,6.07058824 25,6.14117647 25,6.21176471 C25,9.38823529 27.6117647,12 30.7882353,12 C33.9647059,12 36.5764706,9.38823529 36.5764706,6.21176471 C36.5764706,6.14117647 36.5764706,6.07058824 36.5764706,6" id="Path" stroke="#374759" stroke-width="3" stroke-linecap="round"></path>
+                        <circle id="Oval" fill="#0A1F44" fill-rule="nonzero" cx="6" cy="6" r="3"></circle>
+                        <circle id="Oval-Copy" fill="#0A1F44" fill-rule="nonzero" cx="55" cy="6" r="3"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

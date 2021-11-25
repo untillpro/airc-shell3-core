@@ -1,0 +1,95 @@
+
+.ant-input-number-handler-wrap {
+    opacity: 1;
+}
+
+.ant-input-number {
+    width: 100%;
+}
+
+.error .ant-select,
+.error .ant-select-selection, 
+.error .ant-input {
+    border-color: var(--color-danger-600);
+}
+
+.ant-radio-wrapper {
+    white-space: normal;
+}
+
+.form-row-field .form-input,
+.form-row-field .ant-select {
+    flex: 1;
+}
+
+.header-actions .ant-btn {
+    margin-left: 8px;
+}
+
+.header-navigation .ant-btn {
+    margin-left: 8px;
+}
+
+.ant-btn-primary {
+    background-color: var(--color-button-primary);
+    border-color: var(--color-button-primary);
+}
+
+.confirm-modal-buttons .ant-btn,
+.page-section-content-buttons .ant-btn {
+    margin-left: 12px;
+}
+
+.ant-modal.__tiny {
+    width: 90% !important;
+    max-width: 720px;
+}
+
+.ant-modal.__small {
+    width: 50% !important;
+}
+
+.ant-modal.__medium {
+    width: 70% !important;
+}
+
+.ant-modal.__large {
+    width: 80% !important;
+}
+
+.ant-modal-close-x {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.ant-modal-body {
+    padding: 0px;
+}
+
+.edit-form-modal .ant-modal-body {
+    padding: 50px 20px 0px 20px;
+}
+
+.page-section-content-fields-group .ant-tabs {
+    grid-column: span 6;
+}
+
+.ant-badge {
+    margin-right: 10pt;
+}
+
+.ant-btn-circle {
+    overflow: hidden;
+}
+
+.addon-no-padding .ant-input-group-addon {
+    padding: 0px;
+}
+
+.ant-input-group-addon .ant-btn-icon-only {
+    max-height: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: inherit;
+}

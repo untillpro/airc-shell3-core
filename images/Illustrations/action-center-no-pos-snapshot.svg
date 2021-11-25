@@ -1,0 +1,46 @@
+
+<svg width="333px" height="130px" viewBox="0 0 333 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="0%" y1="48.4234431%" x2="100%" y2="51.5765569%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#0A1F44" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#0A1F44" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="-2.22044605e-14%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#0A1F44" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="🚀-Styleguide---kuba" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Illustrations" transform="translate(-148.000000, -1005.000000)">
+            <g id="illu" transform="translate(148.000000, 1005.000000)">
+                <g id="database">
+                    <g id="illu" transform="translate(106.000000, 0.000000)">
+                        <path d="M104,16 L104,104 C104,113.2 79.8,120 52,120 C24.2,120 0,113.2 0,104 L0,16 C0,6.8 24.2,0 52,0 C79.8,0 104,6.8 104,16 Z" id="Combined-Shape" fill="#051D39" opacity="0.0299999993"></path>
+                        <g id="illu-main" transform="translate(6.000000, 6.000000)">
+                            <path d="M2,18 L2,106 C2,115.2 26.2,122 54,122 C81.8,122 106,115.2 106,106 L106,18" id="Path" stroke="#051D39" stroke-width="3"></path>
+                            <path d="M104.5,18 C104.5,10.3344597 81.6585162,3.5 54,3.5 C26.3414838,3.5 3.5,10.3344597 3.5,18 C3.5,25.6655403 26.3414838,32.5 54,32.5 C81.6585162,32.5 104.5,25.6655403 104.5,18 Z M107.5,18 C107.5,28.2935148 83.415168,35.5 54,35.5 C24.584832,35.5 0.5,28.2935148 0.5,18 C0.5,7.70648516 24.584832,0.5 54,0.5 C83.415168,0.5 107.5,7.70648516 107.5,18 Z" id="Path" fill="#051D39" fill-rule="nonzero"></path>
+                            <path d="M104.5,61 L104.5,59.5 L107.5,59.5 L107.5,61 C107.5,71.2935148 83.415168,78.5 54,78.5 C24.584832,78.5 0.5,71.2935148 0.5,61 L0.5,59.5 L3.5,59.5 L3.5,61 C3.5,68.6655403 26.3414838,75.5 54,75.5 C81.6585162,75.5 104.5,68.6655403 104.5,61 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.200000003"></path>
+                            <path d="M46,98 C46,98.0705882 46,98.1411765 46,98.2117647 C46,101.388235 48.6117647,104 51.7882353,104 C54.9647059,104 57.5764706,101.388235 57.5764706,98.2117647 C57.5764706,98.1411765 57.5764706,98.0705882 57.5764706,98" id="Path" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"></path>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="27" cy="98" r="3"></circle>
+                            <circle id="Oval-Copy" fill="#FFFFFF" fill-rule="nonzero" cx="76" cy="98" r="3"></circle>
+                            <path d="M49,101 C49,101.070588 49,101.141176 49,101.211765 C49,104.388235 51.6117647,107 54.7882353,107 C57.9647059,107 60.5764706,104.388235 60.5764706,101.211765 C60.5764706,101.141176 60.5764706,101.070588 60.5764706,101" id="Path" stroke="#1E344D" stroke-width="3" stroke-linecap="round"></path>
+                            <circle id="Oval" fill="#1E344D" fill-rule="nonzero" cx="30" cy="101" r="3"></circle>
+                            <circle id="Oval-Copy" fill="#1E344D" fill-rule="nonzero" cx="79" cy="101" r="3"></circle>
+                        </g>
+                    </g>
+                    <g id="floor" transform="translate(0.000000, 127.000000)" fill-rule="nonzero" opacity="0.200000003">
+                        <path d="M1.5,3 C0.671572875,3 0,2.32842712 0,1.5 C0,0.671572875 0.671572875,0 1.5,0 L121.5,0 C122.328427,0 123,0.671572875 123,1.5 C123,2.32842712 122.328427,3 121.5,3 L1.5,3 Z" id="Path-Copy" fill="url(#linearGradient-2)"></path>
+                        <path d="M211.5,3 C210.671573,3 210,2.32842712 210,1.5 C210,0.671572875 210.671573,0 211.5,0 L331.5,0 C332.328427,0 333,0.671572875 333,1.5 C333,2.32842712 332.328427,3 331.5,3 L211.5,3 Z" id="Path-Copy-2" fill="url(#linearGradient-3)"></path>
+                    </g>
+                </g>
+                <g id="database-copy" transform="translate(114.000000, 32.000000)"></g>
+                <g id="face" transform="translate(136.000000, 125.000000)"></g>
+                <g id="face-copy" transform="translate(139.000000, 128.000000)"></g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,45 @@
+/* toggler */
+
+.toggler {
+    display: inline-block;
+}
+
+.toggler label {
+    cursor: pointer;
+    user-select: none;
+    font-size: 10pt;
+    margin-left: 10pt;
+}
+
+.toggler.right label {
+    margin-right: 10pt;
+    margin-left: 0pt;
+}
+
+.toggler:hover label {
+    color: var(--color-brand);
+}
+
+/* active toggler */
+
+.active-toggler {
+    display: inline-block;
+    cursor: pointer;
+
+    user-select: none;
+}
+
+.active-toggler i {
+    margin-right: 4pt;
+    vertical-align: middle;
+}
+
+.active-toggler.active,
+.active-toggler:hover {
+    color: var(--color-brand);
+}
+
+.active-toggler.right i {
+    margin-right: 0;
+    margin-left: 4pt;
+}

@@ -1,0 +1,175 @@
+/* forms */
+
+select {
+    color: var(--color-text-medium);
+
+    border-radius: 3pt;
+    border: 1px solid var(--color-light-400);
+    height: 24pt;
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 5px;
+    appearance: none;
+
+    position: relative;
+
+    background-position: right 5px center;
+    background-repeat: no-repeat;
+    background-size: auto 8pt;
+    background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 22.062 22.062' style='enable-background:new 0 0 22.062 22.062;' xml:space='preserve'%3E%3Cpath style='fill:%23cdcdcd;' d='M21.454,5.513l-0.737-0.737c-0.808-0.81-2.134-0.81-2.943,0l-6.743,6.742L4.289,4.776 c-0.809-0.81-2.135-0.81-2.944,0L0.608,5.513c-0.811,0.809-0.811,2.135,0,2.945l8.835,8.835c0.435,0.435,1.018,0.628,1.587,0.597 c0.571,0.031,1.154-0.162,1.588-0.597l8.836-8.835C22.264,7.649,22.264,6.323,21.454,5.513z'/%3E%3C/svg%3E");
+
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    content: " ";
+    width: 15px;
+    height: 15px;
+    border: 1px solid var(--color-light-600);
+    border-radius: var(--border-radius-small);
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    appearance: none;
+
+    display: inline-block;
+    background-color: #fff;
+
+    cursor: pointer;
+}
+
+input[type="checkbox"].small {
+    width: 12px;
+    height: 12px;
+}
+
+input[type="checkbox"]:checked {
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='15px' height='11px' viewBox='0 0 15 11' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg fill='%230277e7' stroke='none' stroke-width='1' fill-rule='evenodd'%3E%3Cg transform='translate(-473.000000, -993.000000)'%3E%3Cg transform='translate(468.000000, 986.000000)'%3E%3Cpath d='M18.2928932,7.29289322 C18.6834175,6.90236893 19.3165825,6.90236893 19.7071068,7.29289322 C20.0976311,7.68341751 20.0976311,8.31658249 19.7071068,8.70710678 L10.7071068,17.7071068 C10.3165825,18.0976311 9.68341751,18.0976311 9.29289322,17.7071068 L5.29289322,13.7071068 C4.90236893,13.3165825 4.90236893,12.6834175 5.29289322,12.2928932 C5.68341751,11.9023689 6.31658249,11.9023689 6.70710678,12.2928932 L10,15.5857864 L18.2928932,7.29289322 Z'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.form-row {
+    margin-bottom: 20pt;
+    text-align: center;
+}
+
+.form-row.last {
+    margin-bottom: 0;
+}
+
+.form-row-label {
+    margin-bottom: 6pt;
+    font-size: 9pt;
+    line-height: 16pt;
+    color: var(--color-text-medium);
+    font-weight: 300;
+
+    /*
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    */
+}
+
+.form-row-label.error {
+    color: var(--color-danger-700);
+}
+
+.form-row-error {
+    font-size: 8.5pt;
+    color: var(--color-danger-700);
+    margin-top: 4pt;
+    letter-spacing: 0.5px;
+}
+
+.form-row-field {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-row-button input,
+.form-row-button button {
+    height: 24pt;
+    width: 100%;
+    border: none;
+    background-color: var(--color-button-primary);
+    color: var(--color-button-primary-text);
+
+    border-radius: 3pt;
+
+    transition: all 0.3s;
+
+    cursor: pointer;
+}
+
+.form-row-button input:hover,
+.form-row-button button:hover {
+    background-color: var(--color-button-primary-hover);
+    color: var(--color-button-primary-text-hover);
+}
+
+.form-row-button input.success,
+.form-row-button button.success {
+    background-color: var(--color-button-success);
+    color: var(--color-button-success-text);
+}
+
+.form-row-button input.success:hover,
+.form-row-button button.success:hover {
+    background-color: var(--color-button-success-hover);
+    color: var(--color-button-success-text-hover);
+}
+
+.form-row-button input.warning,
+.form-row-button button.warning {
+    background-color: var(--color-button-danger);
+    color: var(--color-button-danger-text);
+}
+
+.form-row-button input.warning:hover,
+.form-row-button button.warning:hover {
+    background-color: var(--color-button-danger-hover);
+    color: var(--color-button-danger-text-hover);
+}
+
+.form-row-button input.danger,
+.form-row-button button.danger {
+    background-color: var(--color-button-danger);
+    color: var(--color-button-danger-text);
+}
+
+.form-row-button input.danger:hover,
+.form-row-button button.danger:hover {
+    background-color: var(--color-button-danger-hover);
+    color: var(--color-button-danger-text-hover);
+}
+
+.form-input.error,
+.form-textarea.error {
+    color: var(--color-danger-600);
+    border-color: var(--color-danger-600);
+}
+
+.form-input-label {
+    display: block;
+
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+
+    position: relative;
+}
+
+.form-input-label-text,
+.form-input-label-error {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}

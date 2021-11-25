@@ -1,0 +1,39 @@
+.ushell-breadcrubms {
+    display: block;
+    white-space: nowrap;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+
+    border-radius: var(--border-radius-medium);
+    box-shadow: var(--box-shadow-z-1);
+
+    font-size: 90%;
+    font-weight: 200;
+}
+
+.ushell-breadcrubms-item {
+    display: inline-block;
+
+    .text.active {
+        color: var(--color-brand);
+    }
+
+    .text.active:hover {
+        cursor: pointer;
+        color: inherit;
+    }
+    
+    .text.last {
+        font-weight: 500;
+    }
+
+    .separator {
+        display: inline-block;
+        color: var(--color-light-500);
+        margin: 0px 8px;
+    }
+}

@@ -1,0 +1,7 @@
+User-agent: *
+Crawl-delay: 1
+Host: http://base.untill-air.tmweb.ru/
+Disallow: /src/
+Allow: /css/
+Allow: /images/
+Allow: /js/

@@ -1,0 +1,135 @@
+* {
+    font-family: "Inter UI", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-brand);
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--color-text-dark);
+}
+
+body {
+    color: var(--color-text-dark);
+    font-size: 12pt;
+}
+
+.page-content {
+    padding: 20px 0px;
+    position: relative;
+}
+
+.content-container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content-container.wide {
+    max-width: initial;
+    width: 96%;
+}
+
+.content-container.flex-content {
+    display: flex;
+    flex: 1;
+}
+
+.content-container.flex-content.row {
+    flex-direction: row;
+}
+
+.content-block {
+    margin: 32px 0px;
+}
+
+.content-header {
+    margin-bottom: 20pt;
+    font-size: 12pt;
+    line-height: 1.2;
+
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content-header h1,
+.content-header h2,
+.content-header h3,
+.content-header h4,
+.content-header h5,
+.content-header h6 {
+    font-size: 20pt;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10pt;
+}
+
+.content-header-back {
+    width: 30px;
+    text-align: center;
+
+    opacity: 0.4;
+    font-size: 12pt;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.content-header-back:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+/* content */
+
+.content {
+    font-size: 13pt;
+    color: var(--color-text-medium);
+    line-height: 1.4;
+}
+
+.content p {
+    margin: 10pt 0pt;
+}
+
+.content p:last-of-type {
+    margin-bottom: 0;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    color: var(--color-text-dark);
+    margin-bottom: 10pt;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 24pt;
+}
+
+.back-btn {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+// preloader
+
+.--preloader-bg-32-32-gray {
+    background-image: url('../images/loader_32_32_gray.gif');
+    background-position: center center;
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+}

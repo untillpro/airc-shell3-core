@@ -1,0 +1,43 @@
+/* confirm modal */
+
+.confirm-modal {
+    background-color: #fff;
+    box-shadow: var(--box-shadow-z-2);
+    padding: 30pt;
+    border-radius: var(--border-radius-medium);
+    max-width: 90%;
+    display: inline-block;
+
+    text-align: left;
+    position: relative;
+}
+
+.confirm-modal-close {
+    position: absolute;
+    right: 10pt;
+    top: 10pt;
+
+    color: var(--color-light-500);
+    font-size: 10pt;
+    cursor: pointer;
+    transition: 0.3s color;
+}
+
+.confirm-modal-close:hover {
+    color: var(--color-light-900);
+}
+
+.confirm-modal-header {
+    font-size: 20pt;
+    margin-bottom: 16pt;
+    font-weight: 500;
+}
+
+.confirm-modal-text {
+    font-size: 16pt;
+}
+
+.confirm-modal-buttons {
+    margin-top: 40pt;
+    text-align: right;
+}

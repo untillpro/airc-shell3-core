@@ -1,0 +1,93 @@
+/* message */
+
+.message {
+    display: inline-flex;
+    flex-direction: row;
+
+    align-items: flex-start;
+}
+
+.message-icon {
+    width: 60px;
+    font-size: 24px;
+    text-shadow: 0px 0px 5px #000;
+}
+
+.message-icon.error {
+    color: var(--color-danger);
+}
+
+.message-icon.info {
+    color: var(--color-brand);
+}
+
+.message-icon.success {
+    color: var(--color-success);
+}
+
+.message-icon.warning {
+    color: var(--color-warning);
+}
+
+.message-header {
+    font-size: 120%;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.message-footer {
+    text-align: right;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid var(--color-light-400);
+}
+
+// ushell-message
+
+.ushell-message-header {
+  text-align: left;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 15pt;
+  margin-bottom: 15pt;
+
+  font-size: 16pt;
+  font-weight: 600;
+}
+
+.ushell-message-header.center {
+  text-align: center;
+}
+
+.ushell-message-header.right {
+  text-align: right;
+}
+
+.ushell-message-footer {
+  text-align: left;
+
+  margin-top: 15pt;
+  border-top: 1px solid #ededed;
+  padding-top: 15pt;
+}
+
+.ushell-message-footer.center {
+  text-align: center;
+}
+
+.ushell-message-footer.right {
+  text-align: right;
+}
+
+.ushell-message-content {
+  text-align: left;
+  line-height: 1.4;
+}
+
+.ushell-message-content.center {
+  text-align: center;
+}
+
+.ushell-message-content.right {
+  text-align: right;
+}

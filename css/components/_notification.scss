@@ -1,0 +1,106 @@
+/* notification */
+
+.notification_item {
+    display: block;
+    box-shadow: var(--box-shadow-z-3);
+    margin: 10pt;
+    margin-bottom: 0;
+
+    color: var(--color-brand);
+    font-size: 10pt;
+    max-width: 500pt;
+
+    background-color: var(--notify-bg-color);
+    float: left;
+    clear: left;
+
+    position: relative;
+}
+
+.notification_item:hover {
+    cursor: pointer;
+}
+
+.notification_item.rs {
+    border-radius: var(--border-radius-small);
+}
+
+.notification_item.rm {
+    border-radius: var(--border-radius-medium);
+}
+
+.notification_item.rl {
+    border-radius: var(--border-radius-large);
+}
+
+.notification_item.info {
+    color: var(--color-brand);
+}
+
+.notification_item.info:hover {
+    background-color: var(--color-brand-200);
+}
+
+.notification_item.success {
+    color: var(--color-success);
+}
+
+.notification_item.success:hover {
+    background-color: var(--color-success-200);
+}
+
+.notification_item.error {
+    color: var(--color-danger);
+}
+
+.notification_item.error:hover {
+    background-color: var(--color-danger-200);
+}
+
+.notification_item.warning {
+    color: var(--color-warning);
+}
+
+.notification_item.warning:hover {
+    background-color: var(--color-warning-200);
+}
+
+.notification_item_body {
+    display: grid;
+    grid-template-columns: 20pt 1fr auto;
+    padding: 5pt;
+    align-items: center;
+}
+
+.notification_item_icon {
+    padding: 5pt;
+}
+
+.notification_item_text {
+    padding: 5pt;
+}
+
+.notification_item_buttons {
+    margin-left: 10pt;
+}
+
+.notification_item_close {
+    display: inline-block;
+    color: var(--color-text-disabled);
+    font-size: 10px;
+    margin-left: 5pt;
+    cursor: pointer;
+    padding: 0 5pt;
+}
+
+.notification_item_close:hover {
+    color: var(--color-text-dark);
+}
+
+.notification_item_description {
+    padding: 10pt;
+    border-top: 1px solid var(--color-light-400);
+    color: var(--color-text-dark);
+
+    line-height: 1.4;
+}

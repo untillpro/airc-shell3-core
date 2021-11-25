@@ -1,0 +1,45 @@
+
+<svg width="367px" height="122px" viewBox="0 0 367 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#0A1F44" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="-2.22044605e-14%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#0A1F44" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="36.1964953%" x2="100%" y2="63.8035047%" id="linearGradient-3">
+            <stop stop-color="#BAC2CF" offset="0%"></stop>
+            <stop stop-color="#0A1F44" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="🚀-Styleguide---kuba" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Illustrations" transform="translate(-131.000000, -220.000000)">
+            <g id="Login" transform="translate(130.000000, 220.000000)">
+                <g id="floor" transform="translate(0.000000, 117.000000)" fill-rule="nonzero" opacity="0.200000003">
+                    <path d="M2,3.5 C1.17157288,3.5 0.5,2.82842712 0.5,2 C0.5,1.17157288 1.17157288,0.5 2,0.5 L122,0.5 C122.828427,0.5 123.5,1.17157288 123.5,2 C123.5,2.82842712 122.828427,3.5 122,3.5 L2,3.5 Z" id="Path-Copy" fill="url(#linearGradient-1)"></path>
+                    <path d="M246.5,4 C245.671573,4 245,3.32842712 245,2.5 C245,1.67157288 245.671573,1 246.5,1 L366.5,1 C367.328427,1 368,1.67157288 368,2.5 C368,3.32842712 367.328427,4 366.5,4 L246.5,4 Z" id="Path-Copy-2" fill="url(#linearGradient-2)"></path>
+                </g>
+                <g id="food-course" transform="translate(116.000000, 29.000000)" fill="#F7F8F9" fill-rule="nonzero">
+                    <path d="M113.366,69 C109.578539,45.5489982 91.012632,20.9632882 67.506,17.538 C71.0463726,13.5162428 70.7877983,7.41871141 66.919652,3.71112278 C63.0515058,0.00353415201 56.9484942,0.00353415201 53.080348,3.71112278 C49.2122017,7.41871141 48.9536274,13.5162428 52.494,17.538 C28.987368,20.9632882 10.4214612,45.5489982 6.634,69 C6.54527238,69.5769509 113.454728,69.5769509 113.366,69 Z M54,11 C54,7.6862915 56.6862915,5 60,5 C63.3137085,5 66,7.6862915 66,11 C66,14.3137085 63.3137085,17 60,17 C56.6862915,17 54,14.3137085 54,11 Z" id="Shape"></path>
+                    <path d="M119.526,69.708 C119.146144,69.2591482 118.588012,69.0001984 118,69 L2,69 C1.4123975,69.0002705 0.854643515,69.2589296 0.474844512,69.7072927 C0.0950455099,70.1556558 -0.0683668826,70.7483534 0.028,71.328 C0.816,76.056 4.75,85 14,85 L106,85 C115.25,85 119.184,76.056 119.972,71.328 C120.068381,70.7487095 119.905294,70.1563329 119.526,69.708 Z" id="Path"></path>
+                </g>
+                <g id="food-course" transform="translate(126.000000, 0.000000)">
+                    <path d="M56.5,2 C56.5,1.17157288 57.1715729,0.5 58,0.5 C58.8284271,0.5 59.5,1.17157288 59.5,2 L59.5,22 C59.5,22.8284271 58.8284271,23.5 58,23.5 C57.1715729,23.5 56.5,22.8284271 56.5,22 L56.5,2 Z M28.5,10 C28.5,9.17157288 29.1715729,8.5 30,8.5 C30.8284271,8.5 31.5,9.17157288 31.5,10 L31.5,30 C31.5,30.8284271 30.8284271,31.5 30,31.5 C29.1715729,31.5 28.5,30.8284271 28.5,30 L28.5,10 Z M84.5,10 C84.5,9.17157288 85.1715729,8.5 86,8.5 C86.8284271,8.5 87.5,9.17157288 87.5,10 L87.5,30 C87.5,30.8284271 86.8284271,31.5 86,31.5 C85.1715729,31.5 84.5,30.8284271 84.5,30 L84.5,10 Z" id="Combined-Shape" fill="url(#linearGradient-3)" fill-rule="nonzero" opacity="0.200000003"></path>
+                    <path d="M6.612,98 C10.46,73.08 32.002,54 58,54 C83.998,54 105.54,73.08 109.388,98" id="Path" stroke="#0A1F44" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <circle id="Oval" stroke="#0A1F44" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" cx="58" cy="46" r="8"></circle>
+                    <path d="M116,108 C116,108 114,120 104,120 C99.842,120 16.158,120 12,120 C2,120 0,108 0,108 L116,108 Z" id="Path" stroke="#0A1F44" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+                <g id="face" transform="translate(164.000000, 85.000000)">
+                    <path d="M22,3 C22,3.07058824 22,3.14117647 22,3.21176471 C22,6.38823529 24.6117647,9 27.7882353,9 C30.9647059,9 33.5764706,6.38823529 33.5764706,3.21176471 C33.5764706,3.14117647 33.5764706,3.07058824 33.5764706,3" id="Path" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"></path>
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="3" cy="3" r="3"></circle>
+                    <circle id="Oval-Copy" fill="#FFFFFF" fill-rule="nonzero" cx="52" cy="3" r="3"></circle>
+                    <path d="M25,6 C25,6.07058824 25,6.14117647 25,6.21176471 C25,9.38823529 27.6117647,12 30.7882353,12 C33.9647059,12 36.5764706,9.38823529 36.5764706,6.21176471 C36.5764706,6.14117647 36.5764706,6.07058824 36.5764706,6" id="Path" stroke="#374759" stroke-width="3" stroke-linecap="round"></path>
+                    <circle id="Oval" fill="#0A1F44" fill-rule="nonzero" cx="6" cy="6" r="3"></circle>
+                    <circle id="Oval-Copy" fill="#0A1F44" fill-rule="nonzero" cx="55" cy="6" r="3"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

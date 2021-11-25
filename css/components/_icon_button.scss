@@ -1,0 +1,71 @@
+/* icon button */
+
+.icon-btn {
+    padding: 0pt 2pt;
+    display: inline-block;
+
+    font-size: 14pt;
+    line-height: 6pt;
+
+    color: var(--color-text-dark);
+    margin: 0pt 2pt;
+
+    cursor: pointer;
+
+    height: 30px;
+    height: 30px;
+}
+
+.icon-btn:hover {
+    opacity: 0.6;
+}
+
+.icon-btn.primary {
+    color: var(--color-button-primary);
+}
+
+.icon-btn.secondary {
+    color: var(--color-button-secondary);
+}
+
+.icon-btn.success {
+    color: var(--color-button-success);
+}
+
+.icon-btn.warning {
+    color: var(--color-button-warning);
+}
+
+.icon-btn.danger {
+    color: var(--color-button-danger);
+}
+
+.icon-btn.disabled {
+    color: var(--color-text-disabled);
+    cursor: default;
+}
+
+.icon-btn.ghost {
+    color: var(--color-light-500);
+}
+
+.icon-btn.small {
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+}
+
+.icon-btn.normal {
+    width: 20px;
+    height: 20px;
+    line-height: 16px;
+    font-size: 20px;
+}
+
+.icon-btn.large {
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    font-size: 20px;
+}

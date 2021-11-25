@@ -1,0 +1,22 @@
+/* search */
+
+.inline-search {
+    font-size: 12pt;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    line-height: 20pt;
+}
+
+.inline-search:hover i {
+    color: var(--color-brand);
+}
+
+.inline-search input {
+    border-radius: 10pt;
+    border: 1px solid var(--color-light-400);
+    height: 20pt;
+    box-sizing: border-box;
+    padding: 0pt 10px;
+    font-size: 10pt;
+}

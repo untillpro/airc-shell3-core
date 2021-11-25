@@ -1,0 +1,80 @@
+/* tabs */
+
+.tabs ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.tabs ul li {
+    cursor: pointer;
+    transition: 0.3s color;
+    transition: 0.3s border-color;
+
+    position: relative;
+}
+
+.tabs ul li.has-error {
+    color: var(--color-danger);
+}
+
+.tabs ul li.has-error:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+
+    border-radius: 8px;
+
+    background-color: var(--color-danger);
+
+    position: absolute;
+
+    right: 10px;
+    top: 50%;
+
+    margin-top: -4px;
+    box-shadow: 0px 0px 2px var(--color-danger);
+
+    opacity: 0.9;
+}
+
+.tabs ul li:hover {
+    color: var(--color-brand);
+}
+
+.tabs.horizontal ul {
+    display: flex;
+    flex-direction: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs.horizontal ul li {
+    flex: 1;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 8pt 4pt;
+    border-right: 1px solid var(--color-light-400);
+    border-bottom: 3px solid transparent;
+}
+
+.tabs.horizontal ul li:last-child {
+    border: none;
+}
+
+.tabs.horizontal ul li.selected {
+    border-bottom: 3px solid var(--color-brand);
+}
+
+.tabs.vertical li {
+    display: block;
+    padding: 10pt;
+    border-bottom: 1px solid var(--color-light-400);
+    border-left: 3px solid transparent;
+}
+
+.tabs.vertical li.selected {
+    border-left: 3px solid var(--color-brand);
+}
