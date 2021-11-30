@@ -79,6 +79,10 @@ export default class UShellAPIGate {
         return this._callApiMethod('blob', ...args);
     }
 
+    async object(...args) {
+        return this._callApiMethod('object', ...args);
+    }
+
     async _callApiMethod(method, ...args) {
         console.log('Calling UShellAPIGate._callApiMethod with arguments', args);
 
