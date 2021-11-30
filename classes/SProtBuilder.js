@@ -47,8 +47,8 @@ class SProtBuilder {
                     this._makeSection(path);
                                         
                     if (_.isArray(elements)) {
-                        _.set(this._result, path, []);
-                        _.set(this._result, path, ...elements);
+                        _.set(this._result, path, elements);
+                        //_.set(this._result, path, ...elements);
                     } else {
                         _.set(this._result, path, {});
                         _.set(this._result, path, elements);
