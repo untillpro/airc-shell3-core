@@ -10,6 +10,7 @@ import UShellAPIGate from './UShellAPIGate';
 import CUDBuilder from './CUDBuilder';
 import ResponseBuilder from './ResponseBuilder';
 import ResponseErrorBuilder from './ResponseErrorBuilder';
+import ResponseDataPretifier from './ResponseDataPretifier';
 
 import {
     getFileSize,
@@ -33,6 +34,7 @@ export {
     CUDBuilder,
     ResponseBuilder,
     ResponseErrorBuilder,
+    ResponseDataPretifier,
     getFileSize,
     translate,
     toRadians,
