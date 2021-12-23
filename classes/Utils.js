@@ -21,7 +21,7 @@ export const getFileSize = (sizeInBytes) => {
         return {};
     }
 
-    if ( mbytes > 0 ) {
+    if (mbytes > 0) {
         unit = 'MB';
         unitFull = "megabytes";
         value = `${mbytes}`;
@@ -29,7 +29,7 @@ export const getFileSize = (sizeInBytes) => {
         unit = 'KB';
         unitFull = "kilobytes";
         value = `${kbytes}`;
-    } else { 
+    } else {
         unit = 'B';
         unitFull = "bytes";
         value = `${bytes}`;
@@ -46,7 +46,7 @@ export const getFileSize = (sizeInBytes) => {
     }
 }
 
-export const translate = (text, section, options ) => {
+export const translate = (text, section, options) => {
     let path = "";
 
     if (section) path += section + '.';
@@ -163,3 +163,32 @@ export const nodeToPicture = async (node, maxWidth, maxheight) => {
             });
     });
 };
+
+export const registerProjectionHandler = (key, handler) => {
+    console.log("registerProjectionHandler: ", key, handler);
+    if (window) {
+        console.log(window);
+
+        if (!window["air_projection_handlers"]) {
+            window["air_projection_handlers"] = {}
+        }
+
+        window["air_projection_handlers"][key] = handler;
+    }
+}
+
+export const unregisterProjectionHandler = (key) => {
+    if (window["air_projection_handlers"]) {
+        delete window["air_projection_handlers"][key];
+    }
+}
+
+export const getProjectionHandler = (key) => {
+    console.log("getProjectionHandler: ", key, window);
+
+    if (window["air_projection_handlers"]) {
+        return window["air_projection_handlers"][key];
+    }
+
+    return null;
+}

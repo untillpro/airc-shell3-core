@@ -22,7 +22,10 @@ import {
     mround,
     getBlobPath,
     randomString,
-    nodeToPicture
+    nodeToPicture,
+    registerProjectionHandler,
+    unregisterProjectionHandler,
+    getProjectionHandler
 } from './Utils';
 
 export {
@@ -44,5 +47,8 @@ export {
     mround,
     getBlobPath,
     randomString,
-    nodeToPicture
+    nodeToPicture,
+    registerProjectionHandler,
+    unregisterProjectionHandler,
+    getProjectionHandler
 };

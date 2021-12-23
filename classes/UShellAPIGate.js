@@ -83,6 +83,18 @@ export default class UShellAPIGate {
         return this._callApiMethod('object', ...args);
     }
 
+    async dashboard(...args) {
+        return this._callApiMethod('dashboard', ...args);
+    }
+
+    async subscribe(...args) {
+        return this._callApiMethod('subscribe', ...args);
+    }
+
+    async unsubscribe(...args) {
+        return this._callApiMethod('unsubscribe', ...args);
+    }
+
     async _callApiMethod(method, ...args) {
         console.log('Calling UShellAPIGate._callApiMethod with arguments', args);
 
