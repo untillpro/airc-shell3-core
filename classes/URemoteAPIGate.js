@@ -23,8 +23,14 @@ export default class URemoteAPIGate {
         return this._callApiMethod('init', payload);
     }
 
+    async sendEvent(type, payload) {
+        console.log("sendEvent: ", type, payload);
+        
+        return this._callApiMethod('sendEvent', type, payload);
+    }
+
     async _callApiMethod(method, ...args) {
-        console.log('Calling URemoteAPIGate._callApiMethod with arguments', args);
+        console.log('Calling URemoteAPIGate._callApiMethod with arguments', args, this.api);
 
         if (this.api) {
             if (this.api[method] && typeof this.api[method] === 'function') {

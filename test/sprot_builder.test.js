@@ -97,6 +97,6 @@ test('test #2', () => {
     let builder = new SProtBuilder();
     let res = builder.build(testData2);
 
-    expect(res['data'] && typeof res['data'] === "object");
+    expect(res['data'] && typeof res['data'] === "object"); 
     expect(res['meta'] && typeof res['meta'] === "object");
 });
