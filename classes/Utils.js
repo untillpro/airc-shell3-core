@@ -165,10 +165,7 @@ export const nodeToPicture = async (node, maxWidth, maxheight) => {
 };
 
 export const registerProjectionHandler = (key, handler) => {
-    console.log("registerProjectionHandler: ", key, handler);
     if (window) {
-        console.log(window);
-
         if (!window["air_projection_handlers"]) {
             window["air_projection_handlers"] = {}
         }
@@ -184,8 +181,6 @@ export const unregisterProjectionHandler = (key) => {
 }
 
 export const getProjectionHandler = (key) => {
-    console.log("getProjectionHandler: ", key, window);
-
     if (window["air_projection_handlers"]) {
         return window["air_projection_handlers"][key];
     }
