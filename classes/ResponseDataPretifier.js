@@ -5,8 +5,12 @@
 import _ from 'lodash';
 
 class ResponseDataPretifier {
-    constructor() {
+    constructor(elements) {
         this.builders = [];
+
+        if (_.isArray(elements)) {
+            this.prepare(elements);
+        }
     }
 
     prepare(elements) {
