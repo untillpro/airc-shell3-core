@@ -6,7 +6,7 @@ import _ from 'lodash';
 
 class CUDBuilder {
     _cud(operation) {
-        const { _create, _data, _id, _parent_id, _scheme } = operation
+        const { _create, _data, _id, _parent_id, _scheme, _container } = operation
         let o = {};
         let fields = {}
 
@@ -29,7 +29,7 @@ class CUDBuilder {
                 fields["sys.ParentID"] = null;
             } else {
                 fields["sys.ParentID"] = _parent_id;
-                fields["sys.Container"] = _scheme;
+                fields["sys.Container"] = _container;
             }
         }
 
