@@ -112,8 +112,8 @@ export const mround = (num) => {
     return num;
 }
 
-export const getBlobPath = (num) => {
-    return `https://badrequest.ru/tests/uploader/read.php?fileId=${num}`;
+export const getBlobPath = (wsid, id) => {
+    return `/blob/untill/airs-bp/${wsid}/${id}`;
 }
 
 export const randomString = (length = 10) => {
