@@ -18,9 +18,9 @@ export default class ResponseBuilder {
     }
 
     _buildData() {
-        try {
-            let data = this._response.data;
+        let data = this._response.data;
 
+        try {
             if (typeof data === 'object') {
                 if (data && data["sections"] && _.isArray(data["sections"])) {
                     const builder = new SProtBuilder();
@@ -32,7 +32,7 @@ export default class ResponseBuilder {
 
             return data;
         } catch (e) {
-            return null;
+            return data;
         }
     }
 
@@ -41,7 +41,7 @@ export default class ResponseBuilder {
             return parseInt(this._response.status, 10);
         }
 
-        if (this._data && "statusCode" in this._data) {
+        if (_.isPlainObject(this._data) && "statusCode" in this._data) {
             return parseInt(this._data["statusCode"], 10);
         }
 
@@ -53,7 +53,7 @@ export default class ResponseBuilder {
             return String(this._response.data);
         }
 
-        if (this._data && "statusCode" in this._data) {
+        if (_.isPlainObject(this._data) && "errorDescription" in this._data) {
             return String(this._data["errorDescription"]);
         }
 
