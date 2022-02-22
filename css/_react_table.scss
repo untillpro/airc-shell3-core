@@ -235,6 +235,11 @@
     display: block;
 }
 
+.ReactTable .rt-tbody .rt-td .table-editable-cell .value.disabled {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
 .ReactTable .rt-tbody .rt-td .table-editable-cell .value.editable {
     border-bottom: 1px dashed #000;
 }
