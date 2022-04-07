@@ -99,6 +99,10 @@ export default class UShellAPIGate {
         return this._callApiMethod('qr', ...args);
     }
 
+    async hql(...args) {
+        return this._callApiMethod('hql', ...args);
+    }
+
     async _callApiMethod(method, ...args) {
         console.log('Calling UShellAPIGate._callApiMethod with arguments', args);
 
