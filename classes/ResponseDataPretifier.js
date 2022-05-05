@@ -28,7 +28,7 @@ class ResponseDataPretifier {
             throw new Error("No fields descriptions specified");
         }
         
-        if (rows) {
+        if (rows && _.isArray(rows)) {
             for (let row of rows) {
                 result.push(this._buildRow(row));
             }
