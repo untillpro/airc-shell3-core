@@ -2,7 +2,7 @@
  * Copyright (c) 2020-present unTill Pro, Ltd.
  */
 
-
+import _ from 'lodash';
 import Logger from './Logger';
 import iframeApi from '../modules/iframe-api';
 
@@ -101,6 +101,39 @@ export default class UShellAPIGate {
 
     async hql(...args) {
         return this._callApiMethod('hql', ...args);
+    }
+
+    //transactionHistory
+    async th(...args) {
+        return this._callApiMethod('th', ...args);
+    }
+
+    async exec(wsid, instructions) {
+        if (_.isArray(instructions)) {
+            let promises = [];
+            
+            instructions.forEach((inst) => {
+                if (!_.isPlainObject(inst)) {
+                    return;
+                }
+
+                const { method, props } = inst;
+
+                if (_.isNil(method) || !_.isString(method)) {
+                    throw new Error('Api.exec() exception: wrong instruction "method" specified. The not null string expected;');
+                }
+
+                if(!_.isFunction(this[method])) {
+                    throw new Error(`Api.exec() exception: the method "${method}" is not exist in api`);
+                }
+
+                promises.push(this[method](wsid, props || {}));
+            });
+
+            return Promise.all(promises);
+        }
+
+        return [];
     }
 
     async _callApiMethod(method, ...args) {

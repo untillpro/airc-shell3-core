@@ -76,7 +76,9 @@ body {
     opacity: 0.4;
     font-size: 12pt;
 
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     vertical-align: middle;
 }
 
