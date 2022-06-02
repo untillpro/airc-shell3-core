@@ -1,6 +1,6 @@
 {
   "name": "airc-shell3-core",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "private": false,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",

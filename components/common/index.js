@@ -43,6 +43,7 @@ import Input from './Input';
 import Icon from './Icon';
 import Tabs from './Tabs';
 import NoImage from './NoImage';
+import Overlay from './Overlay';
 
 import FieldError from './FieldError';
 import BaseIcon from './BaseIcon';
@@ -91,6 +92,7 @@ export {
     Spin,
     Tabs,
     NoImage,
+    Overlay,
 
     FieldError,
     BaseIcon,
