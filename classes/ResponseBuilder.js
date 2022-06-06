@@ -41,20 +41,16 @@ export default class ResponseBuilder {
             return parseInt(this._response.status, 10);
         }
 
-        if (_.isPlainObject(this._data) && "statusCode" in this._data) {
-            return parseInt(this._data["statusCode"], 10);
+        if (_.isPlainObject(this._data) && "sys.Error" in this._data) {
+            return parseInt(this._data["sys.Error"]["HTTPStatus"], 10);
         }
 
         return -1;
     }
 
     _buildError() {
-        if (this._response && this._response.status !== 200) {
-            return String(this._response.data);
-        }
-
-        if (_.isPlainObject(this._data) && "errorDescription" in this._data) {
-            return String(this._data["errorDescription"]);
+        if (_.isPlainObject(this._data) && "sys.Error" in this._data) {
+            return String(this._data["sys.Error"]["Message"]);
         }
 
         return null;
@@ -62,7 +58,7 @@ export default class ResponseBuilder {
 
 
     isError() {
-        if (this._status !== 200) {
+        if (this._status !== 200 || "sys.Error" in this._data) {
             return true;
         }
 
