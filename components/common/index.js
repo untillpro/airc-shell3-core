@@ -26,6 +26,7 @@ import ActiveToggler from './ActiveToggler';
 import Search from './Search';
 import Sections from './Sections';
 import SectionItem from './SectionItem';
+import SectionContent from './SectionContent';
 import ConfirmModal from './ConfirmModal';
 import Label from './Label';
 import TextInput from './TextInput';
@@ -49,6 +50,9 @@ import FieldError from './FieldError';
 import BaseIcon from './BaseIcon';
 import Modal from './Modal';
 import Breadcrumbs from './Breadcrumbs';
+
+import PageContent from './PageContent';
+import ContentContainer from './ContentContainer';
 
 export {
     Divider,
@@ -75,6 +79,7 @@ export {
     Search,
     Sections,
     SectionItem,
+    SectionContent,
     ConfirmModal,
     TextInput,
     NumberInput,
@@ -98,4 +103,7 @@ export {
     BaseIcon,
     Modal,
     Breadcrumbs,
+
+    PageContent,
+    ContentContainer,
 };
