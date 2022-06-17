@@ -33,7 +33,7 @@ class Sections extends Component {
 
     renderSections() {
         const { renderItem, data } = this.props;
-        let renderFunction = this.renderItem; // default render method
+        let renderFunction = this.renderItem.bind(this); // default render method
 
         if (renderItem && typeof renderItem === 'function') {
             renderFunction = renderItem;
