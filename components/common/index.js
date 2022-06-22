@@ -54,6 +54,8 @@ import Breadcrumbs from './Breadcrumbs';
 import PageContent from './PageContent';
 import ContentContainer from './ContentContainer';
 
+import { Details, DetailsRow } from './Details';
+
 export {
     Divider,
     Link,
@@ -106,4 +108,7 @@ export {
 
     PageContent,
     ContentContainer,
+
+    Details, 
+    DetailsRow,
 };
