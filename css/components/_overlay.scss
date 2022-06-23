@@ -1,65 +1,47 @@
-.base-overlay {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    min-height: 100%;
-    background-color: rgba(0,0,0,0.6);
+.overlay-close-button {
+    color: #fff;
+    min-width: 30px;
+    height: 30px;
 
     display: flex;
 
-    align-items: center;
     justify-content: center;
+    align-items: center;
 
-    transition: opacity .5s;
+    cursor: pointer;
 
-    z-index: 9999999;
+    position: fixed;
 
-    &_close-button {
-        color: #fff;
-        min-width: 30px;
-        height: 30px;
+    right: 10px;
+    top: 10px;
 
-        display: flex;
+    transition: 0.3s opacity;
 
-        justify-content: center;
-        align-items: center;
-
-        cursor: pointer;
+    &::before {
+        content: ' ';
+        display: block;
+        width: 80%;
+        height: 1px;
+        background-color: #fff;
 
         position: absolute;
 
-        right: 10px;
-        top: 10px;
+        transform: rotate(45deg);
+    }
 
-        transition: 0.3s opacity;
+    &::after {
+        content: ' ';
+        display: block;
+        width: 80%;
+        height: 1px;
+        background-color: #fff;
 
-        &::before {
-            content: ' ';
-            display: block;
-            width: 80%;
-            height: 1px;
-            background-color: #fff;
+        position: absolute;
 
-            position: absolute;
+        transform: rotate(-45deg);
+    }
 
-            transform: rotate(45deg);
-        }
-
-        &::after {
-            content: ' ';
-            display: block;
-            width: 80%;
-            height: 1px;
-            background-color: #fff;
-
-            position: absolute;
-
-            transform: rotate(-45deg);
-        }
-
-        &:hover {
-            opacity: 0.5;
-        }
+    &:hover {
+        opacity: 0.5;
     }
 }
