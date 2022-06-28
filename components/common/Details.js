@@ -22,10 +22,10 @@ Details.propTypes = {
 
 const DetailsRow = ({ label, value, valueType, valueStyle, labelType, labelStyle }) => {
     return (
-        <div className={cn("details-info-container__row")}>
+        <>
             <div className={cn("details-info-container__row-label", labelType, labelStyle)}>{label}:</div>
             <div className={cn("details-info-container__row-value", valueType, valueStyle)}>{value || '–'}</div>
-        </div>
+        </>
     );
 }
 

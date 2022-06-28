@@ -1,7 +1,12 @@
 .details-info-container {
     text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4px;
+
     &__row {
         margin-bottom: 10px;
+        
     }
 
     &__row-label {
